@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+float salMin;
+float salFunc;
+float result;
+
+
+printf ("\nQual o salario minimo atuall? ");
+scanf ("%e", &salMin);
+
+printf ("\nQual o seu salario? ");
+scanf ("%e", &salFunc);
+
+result = salMin / salFunc;
+
+printf("%f\nVocê recebe essa quantidade de salarios: ", result);
+
+return 0;
+}
