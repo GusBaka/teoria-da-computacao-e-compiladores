@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+float cel;
+float farh;
+
+printf ("\nQual a temperatura? ");
+scanf ("%e", &cel);
+
+
+farh = (cel * 1.8) + 32;
+
+printf("%f\nA temperatura é ", farh);
+
+return 0;
+}
